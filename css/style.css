@@ -169,7 +169,12 @@ header {
     background-color: var(--color-bg1);
 }
 
-.categories h1{
+.categories h1 {
     line-height: 1;
     margin-bottom: 3rem;
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
