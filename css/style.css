@@ -107,7 +107,7 @@ img {
 /* ========================== NAVBAR =============================== */
 
 nav {
-    background: red;
+    background: transparent;
     width: 100vw;
     height: 5rem;
     position: fixed;
@@ -133,9 +133,12 @@ nav button {
 
 .nav__menu a {
     font-size: 0.9rem;
-
+    transition: var(--transation);
 }
 
 .nav__menu a:hover {
     color: var(--color-bg2);
 }
+
+/* ========================== HEADER =============================== */
+
