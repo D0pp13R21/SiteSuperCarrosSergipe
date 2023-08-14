@@ -264,7 +264,7 @@ header {
     border: 1px solid transparent;
 }
 
-.car {
+.car:hover {
     background: transparent;
     border-color: var(--color-primary);
 }
