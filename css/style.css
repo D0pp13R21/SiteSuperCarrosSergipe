@@ -248,3 +248,32 @@ header {
 
 /* ========================== POPULAR CARS =============================== */
 
+.cars {
+    margin-top: 10rem;
+}
+
+.cars__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.car {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.car {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.car__info {
+    padding: 2rem;
+}
+
+.car__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
